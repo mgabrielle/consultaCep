@@ -5,7 +5,7 @@ function consultaCep(){
 
     console.log(url);
 
-    $.ajax({ // funcão do jquery para requisitar pelo ajax
+    $.ajax({
         url: url,
         type: "GET",
         success: function(response){
